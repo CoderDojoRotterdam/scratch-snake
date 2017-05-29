@@ -1,0 +1,27 @@
+{
+  "name": "scratch-snake",
+  "version": "1.0.0",
+  "description": "Building Snake using Scratch workshop sheet. Written for CoderDojo Rotterdam (SF)",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/core"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderDojoRotterdam/scratch-snake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoderDojoRotterdam/scratch-snake/issues"
+  },
+  "homepage": "https://github.com/CoderDojoRotterdam/scratch-snake#readme",
+  "dependencies": {
+    "coderdojorotterdam-workshop-core": "^1.0.0"
+  },
+  "coderdojo_workshop_options": {
+    "file_in": "workshop.md",
+    "file_out": "workshop.pdf"
+  }
+}
