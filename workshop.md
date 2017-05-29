@@ -61,15 +61,58 @@ De volgende stap is de rest van het slangenlichaam te tekenen. Dit is eignlijk n
 <div class="pagebreak"></div>
 
 ## 4. Slang bewegen
-Nu we alle onderdelen hebben getekend voor onze slang, is het tijd dat de slang kan gaan bewegen.
+Nu we alle onderdelen hebben getekend voor onze slang, is het tijd dat de slang kan gaan bewegen. Klik bij de Sprites op het slangenhoofd en zorg dat je in het tabje Scripts bent.
 
-Todo..
+Als ik op het vlaggetje klik, begin altjd in het midden, richt naar rechts en start pas met bewegen als ik op een van de pijltjestoetsen druk:
 
+<img src="images/wacht-op-pijltjestoets.png">
+
+Maar als je nu op het vlaggetje drukt zie je dat de slang langzaam uit het beeld loopt en niet te besturen is, laten we dat veranderen!
+
+Met de onderstaande blokjes vertellen we de slang dat als we op het pijltje naar boven drukken en we niet op dit moment naar beneden lopen (anders zou de slang over de kop vliegen), dan mogen we de slangenkop richten naar boven:
+
+<img src="images/slang-sturen-1.png">
+
+Kun je nou zelf verzinnen hoe de andere richtingen werken? Als je het goed hebt gedaan werkt het zoals hieronder staat afgebeeld:
+
+
+<img src="images/slang-sturen-2.png">
+
+Hoe werken die richtingen eigenlijk? Bovenaan is 0 graden, naar beneden is 180. Naar rechts is dus 90 en naar links is -90 of 270 graden.
 <div class="pagebreak"></div>
 
 ## 5. Appels!
+Wat gebeurd er eigenlijk als je nu de slang een appel probeert te laten eten? Precies! Niet zo veel. Dat komt omdat we dat stuk nog niet hebben geprogrammeerd.
 
-Nu de slang kan bewegen, is het tijd dat de slang appels kan gaan eten.
+De code hiervoor is eigenlijk heel eenvoudig. Als we op het vlaggetje klikken dan moet de appel een willekeurige plaats kiezen ergens op het scherm:
+
+<img src="images/apple-start-position.png">
+
+Maar als de slang de appel eet, dan moet de appel natuurlijk ook weer een andere plaats krijgen! Hiervoor moeten we eerst weer even terug naar het script van de slang.
+
+Het volgende blokje vertelt het slangenhoofd namelijk, als ik een appel raak, zend dan een signaal uit.
+
+<img src="images/raak-appel-1.png" width="200">
+
+<div class="pagebreak"></div>
+
+In het script van de appel kunnen we dan vervolgens weer naar ditzelfde signaal luisteren en de appel een nieuwe, willekeurige positie geven:
+
+<img src="images/raak-appel-2.png">
+
+
+
+<div class="pagebreak"></div>
+
+## 6. Slangen lichaam volgt de kop
+Tot nu toe hebben we alleen nog maar een slangen kop die over het scherm scheurt en appels eet. De slang wordt nog niet echt langer, laten we dat nu gaan bouwen!
+TODO.
+
+<div class="pagebreak"></div>
+
+## 7. Muren raken
+Als je nu de muren raakt dan gebeurd er nog niet zo veel. We willen natuurlijk dat je dan af bent en een mooi game over scherm ziet.
+TODO.
 
 <div class="pagebreak"></div>
 
@@ -89,8 +132,8 @@ Hoe sneller de slang gaat, hoe moeilijker het is. Hoe meer punten je moet verdie
 <span class="bold">4. Geluiden bij eten van appels</span>
 Zorg er voor dat iedere keer dat de slang een appel eet, hij een geluidje maakt!
 
-<span class="bold">5. Game over scherm</span>
-Als ik dan eindelijk af ben wil ik natuurlijk wel een game over scherm zien! Met score en knop om opnieuw te spelen!
+<span class="bold">5. Steeds iets sneller na 5 appels</span>
+Kun jij de slang steeds iets sneller laten gaan na het eten van 5 appels?
 
 <span class="bold">6. Wat kun je zelf nog verzinnen?</span>
 Wat moet jouw Snake nog meer kunnen dan die van je buurman of buurvrouw? Verzin zelf iets om jouw Snake nog cooler te maken!
