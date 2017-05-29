@@ -105,8 +105,20 @@ In het script van de appel kunnen we dan vervolgens weer naar ditzelfde signaal 
 <div class="pagebreak"></div>
 
 ## 6. Slangen lichaam volgt de kop
-Tot nu toe hebben we alleen nog maar een slangen kop die over het scherm scheurt en appels eet. De slang wordt nog niet echt langer, laten we dat nu gaan bouwen!
-TODO.
+Tot nu toe hebben we alleen nog maar een slangen kop die over het scherm scheurt en appels eet. De slang wordt nog niet echt langer, laten we dat nu gaan bouwen! Switch nu naar het script tabje van het slangenlichaam, maar een variabele en noem die "lengte". Tip: variabelen kun je vinden onder het kopje "Data". Als je de variabele hebt gemaakt kun je de volgende blokjes plaatsen:
+
+<img src="images/standaard-lengte-slang.png">
+
+Dit vertelt het slangenlichaam dat hij niet standaard zichtbaar moet zijn en dat de standaard lengte bij het beginnen van het spel 1 is. Als we het spel starten willen we natuurlijk wel dat de slang een staart krijgt, dat doen we door het lichaam telkens te clonen. Het volgende stukje vertelt het slangen lichaam dat hij zichzelf moet clonen na iedere 0.05 seconden (speel maar eens met die wacht tijd, zie wat er gebeurd met de slang) maar pas nadat het spel is gestart.
+
+<img src="images/als-spel-start-begin-met-clonen.png">
+
+Om er voor te zorgen dat de slang niet eindeloos blijft groeien moeten we de clones natuurlijk ook weer van het scherm verwijderen. Dat doen we met het onderstaande stukje:
+<img src="images/verwijder-clone-na-x-seconden.png">
+
+Maar als je je spelletje nu start zul je zien dat hoe veel appels je ook eet, de slang nooit zal groeien! Dit komt omdat we in de slangenkop nog moeten vertellen dat hij langer moet worden als hij appels eet. Voeg in het blokje wat checkt of de slangenkop de appel raakt een blokje toe die een variabele lengte verhoogt met 1.
+
+<img src="images/verhoog-lengte-bij-appel-raken.png">
 
 <div class="pagebreak"></div>
 
