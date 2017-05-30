@@ -13,7 +13,8 @@ open workshop.pdf
 
 ## Latest release
 **V1 release**
-T.B.A
+- [v1.0](https://github.com/CoderDojoRotterdam/scratch-snake/releases/tag/1.0)
+- [PDF](https://github.com/CoderDojoRotterdam/scratch-snake/releases/download/1.0/workshop.pdf)
 
 ## License
 [MIT](LICENSE)
